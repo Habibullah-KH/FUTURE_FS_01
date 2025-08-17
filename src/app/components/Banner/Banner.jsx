@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import ButtonFill from "../Buttons/Button_fill/ButtonFill";
 import InfiniteScroll from "../Infinite_scroll/InfiniteScroll";
 // import InfiniteScroll from "../Infinite_scroll/InfiniteScroll";
@@ -18,9 +19,12 @@ const Banner = () => {
         <InfiniteScroll/>
 
       <div className="w-[10rem]">
-      <ButtonFill>
+     <Link href={"#footer"}>
+     <ButtonFill>
         Contact
       </ButtonFill>
+     </Link> 
+      
       </div>
     </div>
 
